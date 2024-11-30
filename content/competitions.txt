@@ -1,1 +1,26 @@
-Nehmen am <b>FLL Submerged</b> teil.
+
+<h2 class="hightlight"> World Robot Olympiade</h2>
+<div class="second">
+    <div>
+        <h2 class="hightlight">  FIRST® LEGO® League </h2>
+        <p class="content_text">Die <b>FLL (FIRST® LEGO® League)</b> ist ein Robotikwettbewerb,<br> 
+            bei dem Teams Lego-Roboter bauen und programmieren, um verschiedene Missionen zu erfüllen <br>
+            Außerdem gibt es ein Forschungsproject zu einem bestimmten Theme. <br>
+            Dieses Jahr zum Thema <b>"Submerged"</b></p>
+        <a class="link" href="https://www.first-lego-league.org/de/">Website</a>
+    </div>
+    <div>
+        <img class="img" id="img" src="pictures/FLL_Icon.png" alt="FLL Logo" height="150px">
+    </div>
+</div>
+
+<div class="second">
+    <div>
+        <h2 class="hightlight"> World Robot Olympiade </h2>
+        <p class="content_text">Test</p>
+        <a class="link" href="https://www.worldrobotolympiad.de/">Website</a>
+    </div>
+    <div>
+        <img class="img" id="img2" src="pictures/WRO_Logo.jpg" alt="WRO Logo" height="150px">
+    </div>
+</div>
