@@ -1,2 +1,2 @@
-<a><span class="h1">Wir sind die Robotik AG des </span>
+<a><span class="h1">Wir sind die Robotik AG des  </span>
 <img class="img" id="img" src="pictures/Screenshot 2024-11-30 at 19-32-57 Schule Lernen Leben Gymnasium Rutesheim.png" alt="our logo" height="100px">
