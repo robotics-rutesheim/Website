@@ -1,1 +1,3 @@
 Wir sind die Robotik AG des Gymnasium Rutesheim.
+
+<img class="img" id="img" src="pictures/logo.png" alt="our logo" height="200px">
