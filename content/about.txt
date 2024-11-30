@@ -1,1 +1,1 @@
-dieser text erscheint auf der seite <b>about</b>. der inhalt dieser datei wird als html eingesetz deshalb könnt ihr hier auch html tags verwenden
+Wir sind die Robotik AG des Gymnasium Rutesheim.
