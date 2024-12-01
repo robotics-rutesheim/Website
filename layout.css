@@ -107,3 +107,16 @@ a{
 .content_text{
   margin: 40px;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  margin: 5%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
