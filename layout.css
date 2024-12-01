@@ -64,7 +64,7 @@ a{
 .mobile_footer{
   display: none;
 }
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 810px) {
     .head{
       position: relative;
       display: flex;
