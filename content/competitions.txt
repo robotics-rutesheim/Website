@@ -1,12 +1,14 @@
 
-<h2 class="hightlight"> World Robot Olympiade</h2>
+<!DOCTYPE html>
+
 <div class="second">
     <div>
         <h2 class="hightlight">  FIRST® LEGO® League </h2>
-        <p class="content_text">Die <b>FLL (FIRST® LEGO® League)</b> ist ein Robotikwettbewerb,<br> 
-            bei dem Teams Lego-Roboter bauen und programmieren, um verschiedene Missionen zu erfüllen <br>
-            Außerdem gibt es ein Forschungsproject zu einem bestimmten Theme. <br>
-            Dieses Jahr zum Thema <b>"Submerged"</b></p>
+        <p class="content_text">
+            Als Robotics Rutesheim nehmen wir jährlich an der <b>FIRST® LEGO® League Challenge</b>, kurz FLL teil. <br>
+            Die <b>FLL (FIRST® LEGO® League)</b> ist ein Robotikwettbewerb,<br> 
+            bei dem wir in den Kategorien: <b>Forschung, Robot-Game, Robot-Design</b> gegen andere Teams antreten. <br>
+            Dieses Jahr ist das Thema der FLL <b>"Submerged"</b></p>
         <a class="link" href="https://www.first-lego-league.org/de/">Website</a>
     </div>
     <div>

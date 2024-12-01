@@ -1,2 +1,15 @@
-<a><span class="h1">Wir sind die Robotik AG des  </span>
-<img class="img" id="img" src="pictures/Screenshot 2024-11-30 at 19-32-57 Schule Lernen Leben Gymnasium Rutesheim.png" alt="our logo" height="100px">
+<!DOCTYPE html>
+
+<div class="second">
+    <div>
+        <span class="content_text">
+            <a>
+                Wir sind die Robotik-AG des <b>Gymnasium Rutesheim</b>, <br>
+                eine Gruppe technikbegeisterter Schüler, die sich für Robotik und Programmieren interessieren.
+                Gemeinsam bauen und programmieren wir Roboter und nehmen an verschiedene
+                <a class="link" href="competitions.html">Wettbewerben</a>
+                teil.
+            </a>
+        </span>
+    </div>
+</div>
