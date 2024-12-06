@@ -1,0 +1,13 @@
+[
+    {
+        "Title": "Website Update",
+        "Description": "Unsere Website wurde für die neue FLL Saison umfassend aktualisiert. Wir haben das Design modernisiert und neue Inhalte hinzugefügt</a>",
+        "Date": "06-12-2024"
+    },
+    {
+        "Title": "FLL Submerged",
+        "Description": "Wir nehmen an der FIRST® LEGO® League Challenge 2024 teil. <br> Das Thema der FLL ist dieses Jahr Submerged. <br> <a class='link' href='competitions.html'>Wettbewerbe</a>",
+        "Date": "06-12-2024",
+        "Image": "pictures/news/Submerged.png"
+    }
+]
