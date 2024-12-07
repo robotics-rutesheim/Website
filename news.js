@@ -9,7 +9,11 @@ async function loadContent() {
     // Load news data
     const newsResponse = await fetch('./content/news_list.json');
     const newsData = await newsResponse.json();
-
+    newsData.sort(function(a,b){
+        // Turn your strings into dates, and then subtract them
+        // to get a value that is either negative, positive, or zero.
+        return new Date(b.Date) - new Date(a.Date);
+      });
     // Process each news item
     newsData.forEach(news => {
         let newsHtml = template
