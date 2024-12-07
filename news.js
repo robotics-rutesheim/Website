@@ -20,7 +20,7 @@ async function loadContent() {
         // Handle image
         const imageHtml = news.Image ? `
             <div>
-                <img src="${news.Image}">
+                <img src="${news.Image}" alt="News Image">
             </div>` : '';
         newsHtml = newsHtml.replace('{{image}}', imageHtml);
         console.log(newsHtml)
