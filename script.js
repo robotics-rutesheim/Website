@@ -11,7 +11,8 @@ function load_content() {
             return response.text();
         })
         .then(content => {
-            document.getElementById(`${source[i]}_content`).innerHTML = content;
+            if(document.getElementById(`${source[i]}_content`) != null)
+                document.getElementById(`${source[i]}_content`).innerHTML = content;
         })
     }
 }

@@ -139,7 +139,7 @@ a{
 }
 .video-iframe {
   width: auto;
-  height: 100%;
+  height: auto;
   object-fit: contain; /* Changed from contain to cover */
   object-position: center;
   flex-shrink: 0;

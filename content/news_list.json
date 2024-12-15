@@ -1,6 +1,6 @@
 [
     {
-        "Title": "Youtube",
+        "Title": "<a class='h2' href='https://www.youtube.com/@RoboticsRutesheim'> Youtube </a>",
         "Description": "Wir haben einen Youtube-Kanal. <br> Hier laden wir ab und zu Videos zur FLL hoch. <br> <a class='link' href='https://www.youtube.com/@RoboticsRutesheim'>Kanal</a>",
         "Date": "13-12-2024"
     },
@@ -10,7 +10,7 @@
         "Date": "06-12-2024"
     },
     {
-        "Title": "FLL Submerged",
+        "Title": "<a class='h2' href='https://www.first-lego-league.org/de/saison-2024-25/die-submerged-saison'> Submerged </a>",
         "Description": "Wir nehmen an der FIRST® LEGO® League Challenge 2024 teil. <br> Das Thema der FLL ist dieses Jahr Submerged. <br> <a class='link' href='competitions.html'>Wettbewerbe</a>",
         "Date": "06-12-2024",
         "Image": "pictures/news/Submerged.png"
