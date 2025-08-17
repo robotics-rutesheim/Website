@@ -1,5 +1,11 @@
 [
     {
+        "Title": "<a class='h2' href='https://www.first-lego-league.org/de/saison-2025-26/die-unearthed-saison'> Submerged </a>",
+        "Description": "Wir nehmen an der FIRST® LEGO® League Challenge 2025 teil. <br> Das Thema der FLL ist dieses Jahr Unearthed. <br> <a class='link' href='competitions.html'>Wettbewerbe</a>",
+        "Date": "06-12-2024",
+        "Image": "pictures/news/Unearthed.png"
+    },
+    {
         "Title":"Erfolgreicher Qualifikationswettbewerb in Rockenhausen",
         "Description":"Glückwunsch an HFG-RoboS für den 1. Platz. Wir konnten uns den 5. Platz im Robo-Game sichern.<br> <a class='link' href='https://evaluation.hands-on-technology.org/de/score/challenge-2024-25-deutschland-rockenhausen'>Ergebnisse</a>",
         "Date":"17-02-2025"
