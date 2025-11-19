@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Aufbau Spielfeld 25/26</title>
+  <style>
+    :root{--hotspot-size:28px;--hotspot-color:rgba(255,80,80,0.95)}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;display:flex;min-height:100vh;align-items:center;justify-content:center;background:#f5f6f8}
+    .frame{max-width:1000px;width:94%;margin:32px;}
+    .img-wrap{position:relative;width:100%;background:#ddd;border-radius:10px;overflow:hidden}
+    .img-wrap img{display:block;width:100%;height:auto}
+    /* Hotspots (zugänglich) */
+    .hotspot{
+      position:absolute;transform:translate(-50%,-50%);width:var(--hotspot-size);height:var(--hotspot-size);border-radius:50%;border:3px solid white;background:var(--hotspot-color);box-shadow:0 4px 10px rgba(0,0,0,.25);display:flex;align-items:center;justify-content:center;cursor:pointer
+    }
+    .hotspot:focus{outline:3px solid rgba(0,120,255,.8)}
+    .hotspot .dot{width:10px;height:10px;border-radius:50%;background:white}
+
+    /* Modal */
+    .modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.6);z-index:999}
+    .modal.open{display:flex}
+    .modal-content{max-width:90vw;max-height:90vh;background:white;border-radius:10px;padding:12px;box-shadow:0 10px 30px rgba(0,0,0,.4);display:flex;flex-direction:column;gap:8px}
+    .modal-content img{max-width:100%;max-height:75vh;border-radius:6px;object-fit:contain}
+    .modal-caption{font-size:0.95rem;color:#222}
+    .modal-close{align-self:flex-end;background:#222;color:white;border:none;padding:6px 10px;border-radius:6px;cursor:pointer}
+
+    /* Kleine Hilfestellung */
+    .hint{margin:10px 0;color:#444;font-size:0.95rem}
+
+    @media (max-width:600px){:root{--hotspot-size:22px}}
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <h1>Spielfeld Aufbau</h1>
+    <h3><a href="https://evaluation.hands-on-technology.org/de/bewertungsbogen">Punkte rechner</a></h3>
+    
+    <div class="img-wrap" id="imgWrap">
+      <img id="mainImage" src="images/scene.jpg" alt="Hauptbild mit Objekten">
+
+      <button class="hotspot" style="top:80%; left:60%;" data-img="pictures/spielfeld/bk1.jpg" aria-label="Aufgabe 1" data-caption="https://nextcloud.qantumtech.de/s/Z8rc4Jn2t5yZm2y">
+        <span class="dot" aria-hidden="true"></span>
+      </button>
+
+      <button class="hotspot" style="top:55%; left:55%;" data-img="pictures/spielfeld/bk2.jpg" aria-label="Aufgabe 2" data-caption="https://nextcloud.qantumtech.de/s/5TicycH7YG94THW">
+        <span class="dot" aria-hidden="true"></span>
+      </button>
+
+      <button class="hotspot" style="top:15%; left:20%;" data-img="pictures/spielfeld/bk3.jpg" aria-label="Aufgabe 3" data-caption="https://nextcloud.qantumtech.de/s/EEPBtpcfrxwMt8K">
+        <span class="dot" aria-hidden="true"></span>
+      </button>
+
+      <button class="hotspot" style="top:40%; left:47%;" data-img="pictures/spielfeld/bk4.jpg" aria-label="Aufgabe 4" data-caption="https://nextcloud.qantumtech.de/s/egF6mcaxmjsZSrG">
+        <span class="dot" aria-hidden="true"></span>
+      </button>
+
+      <button class="hotspot" style="top:43%; left:20%;" data-img="pictures/spielfeld/bk5.jpg" aria-label="Aufgabe 5" data-caption="https://nextcloud.qantumtech.de/s/XZMpnoW8aHpQF6M">
+        <span class="dot" aria-hidden="true"></span>
+      </button>
+
+      <button class="hotspot" style="top:15%; left:43%;" data-img="pictures/spielfeld/bk6.jpg" aria-label="Aufgabe 6" data-caption="https://nextcloud.qantumtech.de/s/RAyfWzjYnFfB3Gm">
+        <span class="dot" aria-hidden="true"></span>
+      </button>
+
+      <button class="hotspot" style="top:50%; left:35%;" data-img="pictures/spielfeld/bk7.jpg" aria-label="Aufgabe 7" data-caption="https://nextcloud.qantumtech.de/s/SGrbDFECfcwdamL">
+        <span class="dot" aria-hidden="true"></span>
+      </button>
+
+      <button class="hotspot" style="top:45%; left:68%;" data-img="pictures/spielfeld/bk8.jpg" aria-label="Aufgabe 8" data-caption="https://nextcloud.qantumtech.de/s/GF7CKxR4sXZrWqf">
+        <span class="dot" aria-hidden="true"></span>
+      </button>
+
+      <button class="hotspot" style="top:19%; left:66%;" data-img="pictures/spielfeld/bk9.jpg" aria-label="Aufgabe 9" data-caption="https://nextcloud.qantumtech.de/s/kHBmzCxFmzYnjmW">
+        <span class="dot" aria-hidden="true"></span>
+      </button>
+
+      <button class="hotspot" style="top:21%; left:87%;" data-img="pictures/spielfeld/bk10.jpg" aria-label="Aufgabe 10" data-caption="https://nextcloud.qantumtech.de/s/3pQ9Y35ZPjea9of">
+        <span class="dot" aria-hidden="true"></span>
+      </button>
+
+      <button class="hotspot" style="top:40%; left:84%;" data-img="pictures/spielfeld/bk11.jpg" aria-label="Aufgabe 11" data-caption="https://nextcloud.qantumtech.de/s/rAWkLTFY5yHD2pS">
+        <span class="dot" aria-hidden="true"></span>
+      </button>
+
+      <button class="hotspot" style="top:80%; left:38%;" data-img="pictures/spielfeld/bk12.jpg" aria-label="Aufgabe 12" data-caption="https://nextcloud.qantumtech.de/s/d4MteBTtr6n4ye8">
+        <span class="dot" aria-hidden="true"></span>
+      </button>
+
+    </div>
+  </div>
+
+
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-content" role="document">
+      <button class="modal-close" id="modalClose" aria-label="Schließen">Schließen</button>
+      <img id="modalImage" src="" alt="">
+      <a id="modalCaption" href="#" target="_blank" style="color:#0066cc; text-decoration:underline;"></a>
+    </div>
+  </div>
+
+  <script>
+    const hotspots = document.querySelectorAll('.hotspot');
+    const modal = document.getElementById('modal');
+    const modalImage = document.getElementById('modalImage');
+    const modalCaption = document.getElementById('modalCaption');
+    const modalClose = document.getElementById('modalClose');
+
+    function openModal(src, caption, altText){
+      modalImage.src = src;
+      modalImage.alt = altText || caption || 'Vergrößertes Bild';
+      modalCaption.textContent = caption || '';
+      modalCaption.href = caption;  // Link = data-caption
+      modal.classList.add('open');
+      modal.setAttribute('aria-hidden','false');
+      modalClose.focus();
+
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal(){
+      modal.classList.remove('open');
+      modal.setAttribute('aria-hidden','true');
+      modalImage.src = '';
+      document.body.style.overflow = '';
+      if(lastHotspot) lastHotspot.focus();
+    }
+
+    let lastHotspot = null;
+
+    hotspots.forEach(h => {
+      h.addEventListener('click', (e) => {
+        lastHotspot = e.currentTarget;
+        const src = h.dataset.img;
+        const caption = h.dataset.caption || '';
+        openModal(src, caption, h.getAttribute('aria-label'));
+      });
+
+      // Keyboard support: Enter or Space
+      h.addEventListener('keydown', (e) => {
+        if(e.key === 'Enter' || e.key === ' '){
+          e.preventDefault();
+          h.click();
+        }
+      });
+    });
+
+    modalClose.addEventListener('click', closeModal);
+
+    modal.addEventListener('click', (e) => {
+      if(e.target === modal) closeModal();
+    });
+
+    // ESC to close
+    document.addEventListener('keydown', (e) => {
+      if(e.key === 'Escape' && modal.classList.contains('open')){
+        closeModal();
+      }
+    });
+  </script>
+</body>
+</html>
