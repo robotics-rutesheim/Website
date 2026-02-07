@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", load_content);
 
 function load_content() {
-    let source = ["about", "competitions"];
+    let source = ["about", "competitions","forschung"];
     for (let i = 0; i < source.length; i++) {
         fetch(`./content/${source[i]}.html`)
         .then(response => {
