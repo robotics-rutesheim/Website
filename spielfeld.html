@@ -14,9 +14,9 @@
   <title>Aufbau Spielfeld 25/26</title>
   <style>
     :root{--hotspot-size:28px;--hotspot-color:rgba(255,80,80,0.95)}
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;display:flex;min-height:100vh;align-items:center;justify-content:center;background:rgba(240,240,240)}
-    .frame{max-width:1000px;width:94%;margin:32px;background:rgba(210,210,210);}
-    .img-wrap{position:relative;width:100%;background:rgba(240,240,240);border-radius:0px;overflow:hidden} /*Main image*/
+    body{background:rgba(240,240,240);align-items: center}
+    .frame{max-width:1000px;width:94%;margin:32px auto;background:rgba(210,210,210);}
+    .img-wrap{align-items: center;position:relative;width:100%;background:rgba(240,240,240);border-radius:0px;overflow:hidden} /*Main image*/
     .img-wrap img{display:block;width:100%;height:auto}
     /* Hotspots (zugänglich) */
     .hotspot{
@@ -38,18 +38,19 @@
 
     @media (max-width:600px){:root{--hotspot-size:22px}}
   </style>
-</head>
-<body>
+      <div class="top"><a><span class="h1">Robotics</span> <span class="h2">Rutesheim</span></a></div>
       <div class="header">
         <div class="nav">
-            <a href="index.html"> Home </a>
-            <a href="about.html"> About </a> 
-            <a href="competitions.html"> Wettbewerbe </a> 
-            <a href="news.html"> News </a>
-            <a href="Forschung.html"> Forschung </a>
-            <a href="spielfeld.html"><span class="highlight"> Spielfeld </span></a>
-            <a href="https://evaluation.hands-on-technology.org/de/bewertungsbogen" target="_blank"> Punkterechner ↗</a>
+          <a href="index.html"> Home </a>
+          <a href="about.html"> About </a> 
+          <a href="competitions.html"> Wettbewerbe </a> 
+          <a href="news.html"> News </a>
+          <a href="Forschung.html"> Forschung </a>
+          <a href="spielfeld.html"><span class="highlight"> Spielfeld </span></a>
+          <a href="https://evaluation.hands-on-technology.org/de/bewertungsbogen" target="_blank"> Punkterechner ↗</a>
         </div>
+</head>
+<body>
   <div class="frame">
     
     <div class="img-wrap" id="imgWrap">
