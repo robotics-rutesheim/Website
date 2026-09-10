@@ -1,0 +1,21 @@
+name: Code Quality
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+
+jobs:
+  biome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v7
+
+      - name: Setup Biome
+        uses: biomejs/setup-biome@v2
+        with:
+          version: latest
+
+      - name: Run Biome
+        run: biome ci .

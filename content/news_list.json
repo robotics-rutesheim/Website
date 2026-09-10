@@ -1,49 +1,49 @@
 [
-     {
-        "Title": "Wir haben gewonnen ",
-        "Description": "Wir haben im Robot Game den ersten Platz belegt und sind Champion geworden. Am 28.02 geht es in Heidelberg weiter.</a>",
-        "Date": "26-01-2026"
-    },
-     {
-        "Title": "FLL Heilbronn",
-        "Description": "Morgen ist es soweit. Regionalwettbewerb in der Experimenta Heilbronn.</a>",
-        "Date": "23-01-2026"
-    },
-     {
-        "Title": "Website Update",
-        "Description": "Unsere Website wurde für die neue FLL Saison umfassend aktualisiert. Wir haben das Spielfeld und eine Link zum Punkterechner eingebaut.</a>",
-        "Date": "22-11-2025"
-    },
-    {
-        "Title": "<a class='h2' href='https://www.first-lego-league.org/de/saison-2025-26/die-unearthed-saison'> Unearthed </a>",
-        "Description": "Wir nehmen an der FIRST® LEGO® League Challenge 2025 teil. <br> Das Thema der FLL ist dieses Jahr Unearthed. <br> <a class='link' href='competitions.html'>Wettbewerbe</a>",
-        "Date": "17-08-2025",
-        "Image": "pictures/news/Unearthed.webp"
-    },
-    {
-        "Title":"Erfolgreicher Qualifikationswettbewerb in Rockenhausen",
-        "Description":"Glückwunsch an HFG-RoboS für den 1. Platz. Wir konnten uns den 5. Platz im Robo-Game sichern.<br> <a class='link' href='https://evaluation.hands-on-technology.org/de/score/challenge-2024-25-deutschland-rockenhausen'>Ergebnisse</a>",
-        "Date":"17-02-2025"
-    },
-    {
-        "Title": "1. Platz im Regional Wettbewerb Heilbronn! 🥳",
-        "Description": "Unser FLL-Team hat den 1. Platz im Regionalwettbewerb Heilbronn am 25. Januar 2025 gewonnen!  <br> <a class='link' href='https://evaluation.hands-on-technology.org/de/score/challenge-2024-25-heilbronn'>Ergebnisse</a>",
-        "Date": "26-01-2025"
-    },
-    {
-        "Title": "<a class='h2' href='https://www.youtube.com/@RoboticsRutesheim'> Youtube </a>",
-        "Description": "Wir haben einen Youtube-Kanal. <br> Hier laden wir ab und zu Videos zur FLL hoch. <br> <a class='link' href='https://www.youtube.com/@RoboticsRutesheim'>Kanal</a>",
-        "Date": "13-12-2024"
-    },
-    {
-        "Title": "Website Update",
-        "Description": "Unsere Website wurde für die neue FLL Saison umfassend aktualisiert. Wir haben das Design modernisiert und neue Inhalte hinzugefügt</a>",
-        "Date": "06-12-2024"
-    },
-    {
-        "Title": "<a class='h2' href='https://www.first-lego-league.org/de/saison-2024-25/die-submerged-saison'> Submerged </a>",
-        "Description": "Wir nehmen an der FIRST® LEGO® League Challenge 2024 teil. <br> Das Thema der FLL ist dieses Jahr Submerged. <br> <a class='link' href='competitions.html'>Wettbewerbe</a>",
-        "Date": "06-12-2024",
-        "Image": "pictures/news/Submerged.webp"
-    }
+  {
+    "Title": "Wir haben gewonnen ",
+    "Description": "Wir haben im Robot Game den ersten Platz belegt und sind Champion geworden. Am 28.02 geht es in Heidelberg weiter.</a>",
+    "Date": "26-01-2026"
+  },
+  {
+    "Title": "FLL Heilbronn",
+    "Description": "Morgen ist es soweit. Regionalwettbewerb in der Experimenta Heilbronn.</a>",
+    "Date": "23-01-2026"
+  },
+  {
+    "Title": "Website Update",
+    "Description": "Unsere Website wurde für die neue FLL Saison umfassend aktualisiert. Wir haben das Spielfeld und eine Link zum Punkterechner eingebaut.</a>",
+    "Date": "22-11-2025"
+  },
+  {
+    "Title": "<a class='h2' href='https://www.first-lego-league.org/de/saison-2025-26/die-unearthed-saison'> Unearthed </a>",
+    "Description": "Wir nehmen an der FIRST® LEGO® League Challenge 2025 teil. <br> Das Thema der FLL ist dieses Jahr Unearthed. <br> <a class='link' href='competitions.html'>Wettbewerbe</a>",
+    "Date": "17-08-2025",
+    "Image": "assets/pictures/news/Unearthed.webp"
+  },
+  {
+    "Title": "Erfolgreicher Qualifikationswettbewerb in Rockenhausen",
+    "Description": "Glückwunsch an HFG-RoboS für den 1. Platz. Wir konnten uns den 5. Platz im Robo-Game sichern.<br> <a class='link' href='https://evaluation.hands-on-technology.org/de/score/challenge-2024-25-deutschland-rockenhausen'>Ergebnisse</a>",
+    "Date": "17-02-2025"
+  },
+  {
+    "Title": "1. Platz im Regional Wettbewerb Heilbronn! 🥳",
+    "Description": "Unser FLL-Team hat den 1. Platz im Regionalwettbewerb Heilbronn am 25. Januar 2025 gewonnen!  <br> <a class='link' href='https://evaluation.hands-on-technology.org/de/score/challenge-2024-25-heilbronn'>Ergebnisse</a>",
+    "Date": "26-01-2025"
+  },
+  {
+    "Title": "<a class='h2' href='https://www.youtube.com/@RoboticsRutesheim'> Youtube </a>",
+    "Description": "Wir haben einen Youtube-Kanal. <br> Hier laden wir ab und zu Videos zur FLL hoch. <br> <a class='link' href='https://www.youtube.com/@RoboticsRutesheim'>Kanal</a>",
+    "Date": "13-12-2024"
+  },
+  {
+    "Title": "Website Update",
+    "Description": "Unsere Website wurde für die neue FLL Saison umfassend aktualisiert. Wir haben das Design modernisiert und neue Inhalte hinzugefügt</a>",
+    "Date": "06-12-2024"
+  },
+  {
+    "Title": "<a class='h2' href='https://www.first-lego-league.org/de/saison-2024-25/die-submerged-saison'> Submerged </a>",
+    "Description": "Wir nehmen an der FIRST® LEGO® League Challenge 2024 teil. <br> Das Thema der FLL ist dieses Jahr Submerged. <br> <a class='link' href='competitions.html'>Wettbewerbe</a>",
+    "Date": "06-12-2024",
+    "Image": "assets/pictures/news/Submerged.webp"
+  }
 ]

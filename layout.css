@@ -1,17 +1,17 @@
-body{
-  font-family: 'Roboto Condensed', sans-serif;
+body {
+  font-family: "Roboto Condensed", sans-serif;
   margin: 50px;
 }
-.head{
+.head {
   position: absolute;
 }
-.top{
+.top {
   display: flex;
   justify-content: center;
   font-size: 25px;
   margin-top: 10px;
 }
-.nav{
+.nav {
   display: flex;
   justify-content: center;
   font-size: 25px;
@@ -20,15 +20,15 @@ body{
 .nav a {
   margin: 0 5px;
 }
-.footer{
+.footer {
   margin-top: 50px;
   display: flex;
   justify-content: center;
 }
-.highlight{
+.highlight {
   color: red;
 }
-.first{
+.first {
   margin-top: 20px;
   font-size: 20px;
   display: flex;
@@ -54,63 +54,63 @@ body{
   text-align: center;
 }
 
-.h1{
+.h1 {
   font-size: 25px;
   font-weight: bold;
 }
-.h2{
+.h2 {
   font-size: 25px;
   font-weight: bold;
   color: red;
 }
-a{
+a {
   text-decoration: none;
   color: black;
 }
-.mobile_footer{
+.mobile_footer {
   display: none;
 }
 @media only screen and (max-width: 900px) {
-    .head{
-      position: relative;
-      display: flex;
-      justify-content: center;
-    }
-    .nav{
-      margin-top: 20px;
-    }
-    .first{
-      flex-direction: column;
-    }
-    .second{
-      flex-direction: column;
+  .head {
+    position: relative;
+    display: flex;
+    justify-content: center;
   }
-  .img{
+  .nav {
+    margin-top: 20px;
+  }
+  .first {
+    flex-direction: column;
+  }
+  .second {
+    flex-direction: column;
+  }
+  .img {
     display: none;
   }
   .second div {
     flex: 1 1 100%;
-}
-  .mobile_footer{
+  }
+  .mobile_footer {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .footer{
+  .footer {
     display: none;
   }
 }
-.competitions{
+.competitions {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
 }
-.link{
+.link {
   color: red;
 }
-.content_text{
+.content_text {
   margin: 40px;
 }
 
@@ -126,10 +126,10 @@ a{
   height: auto;
   width: auto;
 }
-.date{
+.date {
   font-size: 12px;
   font-weight: bold;
-  color:red;
+  color: red;
   text-align: start;
 }
 
